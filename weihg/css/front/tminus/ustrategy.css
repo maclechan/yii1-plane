@@ -1,0 +1,26 @@
+.g-body p{
+		padding: 0 20px;
+	}
+	.g-body p.ttl{
+		display: block;
+		height: 112px;
+		line-height: 112px;
+		width: 100%;
+	}
+	.m-detail{
+		width: 100%;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid #d9d9d9;
+	}
+	.m-detail p{
+		width: 94%;
+		margin: 0 auto;
+		color: #646464;
+		line-height:32px; 
+		font-size: 28px;
+	}
+	.m-detail p img{
+		margin: 10px 0;
+		width: 100%;
+	}

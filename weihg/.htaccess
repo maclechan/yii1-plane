@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>   
+  Options +FollowSymLinks   
+  IndexIgnore */*   
+  RewriteEngine on   
+     
+    # if a directory or a file exists, use it directly   
+  RewriteCond %{REQUEST_FILENAME} !-f   
+  RewriteCond %{REQUEST_FILENAME} !-d   
+  #RewriteCond %{HTTP_USER_AGENT} ^Baiduspider [NC]
+  
+  # otherwise forward it to index.php   
+  RewriteRule . index.php   
+  #RewriteRule .* - [F]
+</IfModule>
+ 
+#RewriteEngine on 
+#RewriteCond %{HTTP_USER_AGENT} ^Baiduspider [NC] 
+#RewriteRule .* - [F] 
+
+#SetEnvIfNoCase User-Agent "^Baiduspider" bad_bot
+#<Limit GET POST> 
+#Order Allow,Deny 
+#Allow from all 
+#Deny from env=bad_bot 
+#</Limit>

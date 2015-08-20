@@ -1,0 +1,112 @@
+	.g-body{
+		background: url(../../../images/front_img/bg.jpg) repeat;
+	}
+	.m-ttl{
+		margin-top: 40px;
+	}
+	.m-ttl span{
+		padding: 12px 20px;
+		border: 2px solid #fb4668;
+	}
+	#m-per1{
+		-webkit-animation:fadein 0.8s .2s 1 both;
+		-moz-animation:fadein 0.8s .2s 1 both;
+		-ms-animation:fadein 0.8s .2s 1 both;
+		animation:fadein 0.8s .2s 1 both;
+	}
+	#m-per2{
+		-webkit-animation:fadein 0.8s 1s 1 both;
+		-moz-animation:fadein 0.8s 1s 1 both;
+		-ms-animation:fadein 0.8s 1s 1 both;
+		animation:fadein 0.8s 1s 1 both;
+	}
+	#m-per3{
+		-webkit-animation:fadein 0.8s 1.8s 1 both;
+		-moz-animation:fadein 0.8s 1.8s 1 both;
+		-ms-animation:fadein 0.8s 1.8s 1 both;
+		animation:fadein 0.8s 1.8s 1 both;
+	}
+	#m-per4{
+		-webkit-animation:fadein 0.8s 2.6s 1 both;
+		-moz-animation:fadein 0.8s 2.6s 1 both;
+		-ms-animation:fadein 0.8s 2.6s 1 both;
+		animation:fadein 0.8s 2.6s 1 both;
+	}
+	#m-per5{
+		-webkit-animation:fadein 0.8s 3.2s 1 both;
+		-moz-animation:fadein 0.8s 3.2s 1 both;
+		-ms-animation:fadein 0.8s 3.2s 1 both;
+		animation:fadein 0.8s 3.2s 1 both;
+	}
+	.m-pbox{
+		margin-top: 60px;
+	}
+	.m-pbox a{
+		display: block;
+	}
+	.m-per{
+		position: relative;
+		display: block;
+		margin-top: 14px;
+		height: 120px;
+		width: 88%;
+		margin-left: 6%;
+	}
+	.m-pimg{
+		position: relative;
+		z-index: 2;
+		height: 118px;
+		width: 118px;
+		border: 1px solid #838383;
+		border-radius: 50%;
+	}
+	.m-ptxt{
+		display: block;
+		margin:30px -10px;
+		padding-left:20px;
+		padding-right: 20px;
+		height: 60px;
+		line-height: 60px;
+		width: 300px;
+		
+	}
+	.m-ptxt.bgl{
+		background: -webkit-linear-gradient(0deg,#fb4668 ,#fb8ea2 );
+	}
+	.m-ptxt.bgr{
+		background: -webkit-linear-gradient(0deg,#fb8ea2 ,#fb4668 );
+	}
+	.m-per .m-cirbr{
+		display: block;
+		z-index: 2;
+		background: url(../../../images/front_img/bg.jpg) repeat;
+		height: 120px;width: 120px;
+		border-radius: 50%;
+	}
+	.m-btn{
+		position: absolute;
+		bottom: 40px;
+		left: 50%;
+		-webkit-transform:translateX(-50%);
+		transform:translateX(-50%);
+	}
+	.m-btn a{
+		display: block;
+		padding: 12px 40px;
+	}
+	@-webkit-keyframes fadein{
+	    0%{opacity:0;}
+	    100%{opacity:1;}
+	}
+	@-moz-keyframes fadein{
+	    0%{opacity:0;}
+	    100%{opacity:1;}
+	}
+	@-ms-keyframes fadein{
+	    0%{opacity:0;}
+	    100%{opacity:1;}
+	}
+	@keyframes fadein{
+	    0%{opacity:0;}
+	    100%{opacity:1;}
+	}

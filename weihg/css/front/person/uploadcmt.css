@@ -1,0 +1,169 @@
+.g-head{
+			z-index: 2;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 80px;
+			line-height: 80px;
+		}
+		.g-head span{
+			height: 100%;
+			line-height: 80px;
+		}
+		.g-head .g-back{
+			display: block;
+			padding:0 40px;
+			width: 40px; 
+			height: 100%;
+			background: url(../../../images/front_img/icon.png) 40px -184px no-repeat;
+		}
+		.g-head .ttl{
+			padding-left: 160px;
+		}
+		.m-box{
+			width: 100%;
+			margin-top:80px;
+		}
+		.m-box p{
+			/*width: 100%;*/
+			line-height: 66px;
+			border-bottom: 1px solid #d9d9d9;
+			padding-left: 20px;
+		}
+		.m-box .m-inf{
+			position: relative;
+			display: block;
+			height: 178px;
+		}
+		.m-box .m-inf img{
+			height: 120px;
+			width: 120px;
+			margin:20px 0 0 20px;
+		}
+		.m-box .m-inf p{
+			border: none;
+			line-height: 30px;
+		}
+		.m-box .m-inf .ttl{
+			padding-top: 20px;
+			display: block;
+			width: 54%;
+			line-height: 30px;
+		} 
+		.m-box .m-inf div{
+			padding:20px 20px 0 0;
+			
+		}
+		.m-box .m-inf .pnum{
+			position: absolute;
+			bottom: 30px;
+			right:20px; 
+		}
+		.m-box textarea{
+			width: 92%;
+			margin-left: 3%;
+			padding-left: 2%;
+			height: 90px;
+			line-height: 30px;
+			border: 1px solid #d9d9d9;
+		}
+		p.nobd{
+			text-indent:20px;
+			border: none;
+			padding-left: 0;
+		}
+		.m-box .nobd span{
+			position: relative;
+			display: block;
+			width:100px;
+			height: 100px;
+			margin: 0 14px;
+			background-image: url(../../../images/front_img/addimg.png);
+			background-position:center center;
+			background-repeat:  no-repeat;
+			background-size: cover;
+		}
+		.m-box .nobd span input{
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+			display: block;
+		}
+		.g-side{
+			margin-top: 20px;
+		}
+		.m-box1{
+			margin-top: 0;
+		}
+		.m-list{
+			width: 100%;
+			height: 182px;
+		}
+		.m-list img{
+			margin: 20px;
+			height: 142px;
+			width: 142px;
+			margin-right: -182px;
+		}
+		.m-info{
+			width: 100%;
+			height: 100%;
+		}
+		.m-info p{
+			margin-top: 30px;
+			display: block;
+			padding-left: 222px;
+			border: none;
+			line-height: 40px;
+		}
+		.m-info .pname{
+			display: inline-block;
+			height: 40px;
+			width: 160px;
+		}
+		.m-info .pttl{
+			display: inline-block;
+			height: 40px;
+			width: 180px;
+		}
+		.m-score .m-left{
+			display: block;
+			width: 160px;/*=============================================================2/14*/
+			border: none;
+			height: 66px;
+			line-height: 66px;
+		}
+		.m-score .m-right{
+			width: 100%;
+			height: 66px;
+			line-height: 66px;
+			margin-left: -180px;
+		}
+		.m-right .m-star{
+			height: 66px;
+			width: 400px;
+			margin: 0 0 0 160px;
+			border: none;
+		}
+		.m-right .m-star span{
+			float: left;
+			height: 100%;
+			width: 60px;
+			display: block;
+			background: url(../../../images/front_img/sharelike.png) -10px -146px;
+			margin: 0 10px;
+		}
+		.g-tail{
+			margin-top:20px;
+			height: 100px;
+			width: 100%;
+		}
+		.g-tail button{
+			margin: 20px 35%;
+			display: block;
+			height: 54px;
+			line-height: 54px;
+			padding: 0 60px;
+			border: 2px solid #fb4668;
+		}

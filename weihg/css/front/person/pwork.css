@@ -1,0 +1,92 @@
+.g-body .g-box{
+	position: absolute;
+	display: block;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+}
+.g-box #pname{
+	line-height: 80px;
+	margin-left: 20px;
+}
+.g-box #likebtn,.g-box #sharebtn{
+
+	display: block;
+	float: left;
+	width: 60px;
+	height: 80px;
+	background-image: url(../../../images/front_img/sharelike.png);
+	background-repeat: no-repeat;
+}
+.g-box .likebtn{
+	margin-left: 260px;
+	background-position: -12px -138px;
+}
+.g-box .redheart{
+	background-position:-12px -620px;
+}
+.g-box #sharebtn{
+	margin-left: 30px;
+	background-position: -12px -300px;
+}
+.g-body .g-main{
+	position: relative;
+	margin-top: 81px;
+	line-height: 80px;
+}
+.g-body .g-main .m-body{
+	width:94%;
+	margin:0 auto 80px;
+}
+.g-body .g-main .m-body p{
+	text-align:left;
+	line-height:36px;
+	display:block;
+	text-indent:2em;
+}
+.g-body .g-main .m-body img{
+	margin:6px 0;
+	width:100%;
+	margin-left:-2em;
+}
+
+.g-body .m-end{
+	margin-top: 20px;
+	margin-bottom: 100px;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	background-image: url(../../../images/front_img/line1.png);
+	background-position: 0 7px;
+	background-repeat:no-repeat; 
+}
+.g-ctat{
+	/*margin-top: 20px;*/
+	/*display: none;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 78px;
+}
+.g-ctat div{
+	float: left;
+	width: 50%;
+	height: 78px;
+	line-height: 78px;
+}
+.g-ctat div a{
+	padding: 12px 24px 12px 54px;
+	border: 2px solid #fb4668;
+	background-image: url(../../../images/front_img/phomeicon.png);
+	background-repeat: no-repeat;
+}
+.g-ctat #t-qq{
+	background-position:0 -75px;
+}
+.g-ctat #t-tel{
+	background-position:0 3px;
+}

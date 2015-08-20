@@ -1,0 +1,52 @@
+.g-list{
+		display: block;
+		width: 100%;
+		height: 158px;
+		border-bottom: 1px solid #d8d8d8;
+	}
+	.g-list .g-sbox{
+		width: 94%;
+		height: 100%;
+		margin: 0 auto;
+		padding:20px 0;
+	}
+	.g-sbox .g-sleft{
+		float: left;
+		width: 180px;
+		height: 120px;
+	} 
+	.g-sbox .g-sleft img{
+		height: 100%;
+		width: 100%;
+	}
+	.g-sbox .g-sright{
+		float: left;
+		width: 100%;
+		height: 100%;
+		margin-left: -180px;
+	}
+	.g-sbox .g-sright p{
+		padding-left: 200px;
+	}
+	.g-sbox .sname{
+		height: 50px;
+		line-height: 50px;
+		overflow: hidden;
+	}
+	.g-sbox .saddr{
+		line-height: 35px;
+		max-height: 70px;
+		overflow: hidden;
+	}
+	.more-btn{
+		display: block;
+		width: 94%;
+		margin: 20px auto;
+		height: 60px;
+		line-height: 60px;
+		border: 2px solid #ccc;
+		background-image: url(../../../images/front_img/go.png);
+		background-position:66% 12px;
+		background-repeat: no-repeat;
+	}
+	.more-btn:hover,.more-btn:visited{color: #808080;}

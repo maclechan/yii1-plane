@@ -1,0 +1,175 @@
+.js-selected{
+		color: #fb4668;
+		text-decoration: underline;
+	}
+	.g-head{
+		z-index: 2;
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		line-height: 60px;
+		width: 100%; 
+		border-bottom: 1px solid #d9d9d9;
+		background-color: #fff;
+	}
+	.g-head span{
+		width: 50%;
+		margin: 5px 0;
+	}
+	/*推荐产品*/
+	.g-list1{
+		display: none;
+		width: 98%;
+		margin: 76px auto;
+	}
+	.g-list1 .m-box{
+		height: 408px;
+		width: 50%;
+		margin:10px 0  20px;
+	}
+	.g-list1 .m-box .m-pro{
+		width: 94%;
+		height: 100%;
+		margin: 0 auto;
+		border: 2px solid #d9d9d9;
+	}
+	.g-list1 .m-pro p{
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background: url(../../../images/front_img/go.png) right center no-repeat;
+	}
+	.g-list1 .m-pro p img{
+		margin-left:4px; 
+		margin-top: 5px;
+		height: 50px;
+		width: 50px;
+		border-radius: 25px;
+		border:none;
+	}
+	.g-list1 .m-pro p span{
+		padding:0 10px;
+	}
+	.g-list1 .m-pro .m-img{
+		display: block;
+		width: 280px;
+		height: 280px;
+		margin: 0 auto;
+	}
+	.g-list1 .m-pro .m-img img{
+		height: 100%;
+		width: 100%;
+	}
+	.g-list1 .m-pro .m-img p{
+		z-index: 2;
+	}
+	.g-list1 .m-pro .m-inf{
+		width: 96%;
+		margin: 0 auto;
+		background: none;
+		margin-top: 16px;
+	}
+	.g-list1 .m-pro .m-inf span{
+		line-height: 40px;
+	}
+	.g-list1 .m-pro .m-inf .islike{
+		padding: 0 10px 0 48px;
+		background-image: url(../../../images/front_img/sharelike.png);
+		background-repeat:no-repeat;
+		background-size: 60px;
+		background-position: -2px -454px;
+	}
+	/*作品精选*/
+	.g-list2{
+		display: none;
+		width: 98%;
+		margin: 76px auto;
+	}
+	.g-list2 .m-box{
+		/*height: 428px;*/
+		width: 100%;
+		margin:10px 0  20px;
+	}
+	.g-list2 .m-box .m-pro{
+		width: 94%;
+		height: 100%;
+		margin: 0 auto;
+		border: 2px solid #d9d9d9;
+	}
+	.g-list2 .m-pro p{
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background: url(../../../images/front_img/go.png) center center no-repeat;
+	}
+	.g-list2 .m-pro p img{
+		margin-left:4px; 
+		margin-top: 5px;
+		height: 50px;
+		width: 50px;
+		border-radius: 25px;
+		border:none;
+	}
+	.g-list2 .m-pro p span{
+		padding:0 10px;
+	}
+	.g-list2 .m-pro .m-img{
+		position: relative;
+		display: block;
+		width: 98%;
+		margin: 10px auto 20px;
+	}
+	.g-list2 .m-img img{
+		width: 100%;
+		height: 100%;
+	}
+	.g-list2 .m-img p{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background: rgba(0,0,0,0.3);
+	}
+	.g-list2 .m-img p .islike_anli,.g-list2 .m-img p .cmt{
+		padding-left: 40px;
+		background-image: url(../../../images/front_img/sharelike.png);
+		background-size: 60px;
+		background-repeat: no-repeat;
+	}
+	.g-list2 .m-img p .ttl{
+		display: block;
+		width: 50%;
+		height: 60px;
+	}
+	.g-list2 .m-img p .islike_anli{
+		background-position: -10px -858px;
+	}
+	.g-list2 .m-img p .cmt{
+		background-position: -10px -950px;
+	}
+
+	/*确定取消弹出框  --> 放到全局style里面*/
+	/*.g-pmt{
+		display: none;
+		z-index: 2;
+		position: fixed;
+		height: 200px;
+		width: 300px;
+		left: 50%;
+		top: 50%;
+		background-color: rgba(0,0,0,0.6);
+		border-radius: 20px;
+		-webkit-transform:translate3d(-50%,-50%,0);
+		transform:translate3d(-50%,-50%,0);
+	}
+	.g-pmt p{
+		padding-top: 40px;
+		line-height: 40px;
+	}
+	.g-pmt .m-btn{
+		width: 50%;
+		padding: 40px 0 40px 0;
+	}*/

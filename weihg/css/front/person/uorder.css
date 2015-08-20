@@ -1,0 +1,86 @@
+.g-body{
+		overflow: auto;
+	}
+	.js-selected{
+		color: #fb4668;
+		text-decoration: underline;
+	}
+	.g-head{
+		z-index: 1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height:62px; 
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.g-head span{
+		display: block;
+		width: 16.5%;
+		height: 40px;
+		line-height: 40px;
+		border-right: 1px solid #d9d9d9;
+		margin: 11px 0;
+	}
+	.g-head span:last-child{
+		border: none;
+	}
+	.g-list{
+		width: 100%;
+		margin-top: 64px;
+	}
+	.g-list .m-head{
+		display: block;
+		height: 78px;
+		line-height: 78px;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.g-list .m-head span{
+		height: 100%;
+		padding-left:24px;
+	}
+	.g-list .m-head span:last-child{
+		padding-right:20px;
+	}
+	.g-list .m-head .ctat{
+		display: block;
+		height: 100%;
+		width: 60px;
+		background-color: red;
+		background: url(../../../images/front_img/phomeicon.png) -6px -68px no-repeat ;
+	}
+	.g-list .m-box .m-inf{
+		position: relative;
+		display: block;
+		height: 178px;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.g-list .m-inf img{
+		height: 120px;
+		width: 120px;
+		padding:30px 20px;
+	}
+	.g-list .m-inf .ttl{
+		padding-top: 30px;
+		display: block;
+		width: 54%;
+		line-height: 30px;
+	} 
+	.g-list .m-inf div{
+		padding: 30px 20px;
+	}
+	.g-list .m-inf .pnum{
+		position: absolute;
+		bottom: 30px;
+		right:20px; 
+	}
+	.g-list .m-opt{
+		height: 116px;
+	}
+	.g-list .m-opt .m-btn{
+		margin: 30px 20px 0 0;
+		padding:15px;
+		border: 2px solid #fb4668;
+		border-radius: 10px;
+		margin-left: 20px;
+	}

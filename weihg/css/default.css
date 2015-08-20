@@ -1,0 +1,137 @@
+/* === All CSS  === */
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,dd,dt,td,dl{margin:0;padding:0;border:0;font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;color: #000000;}
+html {overflow-y:auto!important; *overflow-y:scroll;}
+body{  font:12px Arial, Helvetica, sans-serif; background:#ffffff; color:#666;}
+textarea{ margin:0px; padding:0px; font-size:12px; margin-top:3px; _margin-bottom:3px; line-height:18px; padding-left:3px;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+input{vertical-align:middle;}
+table{border-collapse:collapse;}
+ul{list-style:none;}
+.clear{clear:both;height:0px;width:0px;overflow:hidden;}
+*:focus {outline: none;}/*可以用下面的css代码去掉所有元素的边框*/
+nohighlight:focus { outline:none; }/*用下面的代码去掉你要去掉的元素的边框*/
+.changeborder:focus { outline:Blue Solid 4px; }/*你也可以给元素增加你希望的边框*/
+textarea {resize:none;}/*Chrome允许用户控制textarea表单域的大小，在CSS中加入下面一句就可以了*/
+
+.w710{ width:710px; padding-left:50px;}
+.w730{ width:730px;}
+.w800{ width:800px;}
+.w680{ width:680px;}
+.w400{ width:430px;}
+.fl{float:left;}
+.fr{float:right;}
+.pl_10{ padding-left:10px;}
+.pl_5{ padding-left:5px;}
+.pt_3{ padding-top:3px;}
+.pt_5{ padding-top:5px;}
+.pt_8{ padding-top:8px;}
+.pr_5{ padding-right:5px;}
+.pb_5{ padding-bottom:5px;}
+.m20{margin-top:20px;}
+.m10{margin-top:10px;}
+.m5{margin-top:5px;}
+.h10{ height:10px; overflow:hidden;}
+a:link,a:visited{color:#000000;text-decoration:none;cursor: pointer;}
+a:hover{color:#f00;text-decoration:none;cursor: pointer;}
+
+.selected{ background:#f1f5fa;}
+
+.hidecontent {display:none;}
+.position_re{ position:relative}
+.position_ab{ position:absolute;}
+
+/*=======主体信息=======*/
+.main{ background:#ffffff; margin-right:3px;min-width: 760px;width: expression(document.body.clientWidth < 760? "760px": "" );}
+.main .tab{ height:25px; line-height:25px;background:#3C86C5;color:#cccccc; width:100%;}
+.tabLeft{ background:url(../images/admin_img/v_ico.gif) no-repeat -290px -46px; text-indent:20px; color:#cccccc; height:25px; line-height:25px; width:500px;}
+
+
+/*提示左边*/
+.tishiL{top:35px;left: 9px;bottom: 0px;width: 274px; position: absolute;}
+.tishiL_con{ width:269px; border:#e9e9e9 solid 2px; padding-top:35px; padding-bottom:5px;} 
+.tishiL_con .tishiL_title{ background:url(../images/admin_img/tishiL_top.jpg) no-repeat; width:276px; height:43px; right:-3px; top:-3px;}
+.tishiL_con .tishiL_title h2{ line-height:30px; padding-left:20px; font-size:14px; font-weight:bold; }
+.tishiL_con ul{ padding-left:10px;}
+.tishiL_con li{ background:url(../images/admin_img/tishiL_ico.jpg) no-repeat left center; padding-left:10px; line-height:25px;}
+.tishiL_con dl{ padding-left:10px;}
+.tishiL_con dd{ background:url(../images/admin_img/tishiL_ico.jpg) no-repeat left center; padding-left:10px; line-height:25px; float:left; width:85px;display:block;}
+.tishiL_con dt{ line-height:25px; float:left; width:155px; display:block;}
+.tishiL_con .border_a6 table,.tishiL_con .border_a6 td,.tishiL_con .border_a6 th{ border:#a6adae solid 1px;}
+.tishiL_con .Booking_c th{ font-weight:normal;}
+.tishiL_con .Booking_c td{ color:#F00;}
+.tishiL_con .Booking_c th,.tishiL_con .Booking_c td{ text-align:center; }
+
+
+
+/*提示右側*/
+.tishiR{Z-INDEX: 4; POSITION: absolute; TOP: 35px; RIGHT: 3px; LEFT: 293px; bottom:0px; display:block;
+_HEIGHT: expression(document.body.offsetHeight - 36 + 'px'); 
+_WIDTH: expression(document.body.offsetWidth - 296 + 'px');
+}
+.tishiRcon{_WIDTH: expression(document.body.offsetWidth - 296 + 'px');}
+.tishiRw{ width:49.4%;}
+.tishiRl{ border:#b2b2b2 solid 2px; position:relative; height:235px;}
+.tishiRl_1,.tishiRl_2,.tishiRl_3,.tishiRl_4{width:15px; height:13px; display:block;position:absolute; z-index:1000;}
+.tishiRl_1{ background:url(../images/admin_img/tishi.png) no-repeat 0px 0px; left:-2px; top:-2px;}
+.tishiRl_2{ background:url(../images/admin_img/tishi.png) no-repeat -15px 0px; right:-2px; top:-2px;}
+.tishiRl_3{ background:url(../images/admin_img/tishi.png) no-repeat 0px -13px; left:-2px; bottom:-2px;_bottom:-5px;}
+.tishiRl_4{ background:url(../images/admin_img/tishi.png) no-repeat -15px -13px; right:-2px; bottom:-2px;_bottom:-5px;}
+em{ position:absolute;display:block; top:1px; height:34px; z-index:1000;}
+.def_1 em{background:url(../images/admin_img/tishi.png) repeat-x 0px -30px; left:8px; width:44px;}
+.def_2 em{background:url(../images/admin_img/tishi.png) repeat-x -60px -35px; left:10px; width:34px;}
+.def_3 em{background:url(../images/admin_img/tishi.png) repeat-x 0px -72px; left:15px; width:31px;}
+.def_4 em{background:url(../images/admin_img/tishi.png) repeat-x -60px -74px; left:12px; width:35px;}
+
+.tishiRl_bt{ background:url(../images/admin_img/tishi.png) repeat-x 0px -112px; height:37px; line-height:37px; color:#333333; font-weight:bold; font-size:14px; padding-left:60px;position:relative; z-index:900;}
+
+
+.tishiRl_con{ height:149px; padding:10px;}
+.def_1 .tishiRl_con p{ padding:10px 10px 0px 10px; text-indent:2em; line-height:24px;}
+.tishiRl_con ul{}
+.tishiRl_con li{display:block;padding-left:15px;  background:url(../images/admin_img/def_ico.jpg) no-repeat 4px center; line-height:24px;height:24px; position:relative;}
+.tishiRl_con li a{display:block;}
+.tishiRl_con li span{ padding-left:10px;line-height:24px; width:70px; display:block; position:absolute;top:0px; right:0px; color:#666;}
+
+.tishiRl_down{ background:url(../images/admin_img/tishi.png) repeat-x 0px -150px; height:29px; line-height:29px; text-align:right;}
+.tishiRl_down a{ padding-right:20px;}
+
+
+/*内容详情*/
+.def_link{ margin:10px 10px 0px 10px; padding:10px; border:#798385 solid 1px;}
+.def_linkBt{ line-height:50px; height:50px; padding-left:60px;color:#333333; font-weight:bold; font-size:14px; position:relative;}
+.def_linkBt em{position:absolute;display:block; top:7px; height:34px;}
+.link_1 em{background:url(../images/admin_img/tishi.png) repeat-x 0px -30px; left:8px; width:44px;}
+.link_2 em{background:url(../images/admin_img/tishi.png) repeat-x -60px -35px; left:10px; width:34px;}
+.link_3 em{background:url(../images/admin_img/tishi.png) repeat-x 0px -72px; left:15px; width:31px;}
+.link_4 em{background:url(../images/admin_img/tishi.png) repeat-x -60px -74px; left:12px; width:35px;}
+
+.def_link ul{}
+.def_link li{display:block;line-height:30px;height:30px; position:relative;padding-left:15px; background:url(../images/admin_img/def_ico.jpg) no-repeat 4px center;}
+.def_link li a{display:block;background: url(../images/admin_img/def_link.jpg) repeat-x left center;color:#333333;}
+.def_link li a:link,.def_link li a:visited{color:#333333; text-decoration:none;}
+.def_link li a:hover{color:#3333cc;text-decoration:underline}
+.def_link li b{ background:#FFF; font-weight:normal;}
+.def_link li span{ background:#FFF; padding-left:10px;line-height:30px; width:70px; display:block; position:absolute;top:0px; right:0px; color:#666;}
+
+.def_a{ position:relative; height:23px;}
+.previous,.next,.return{ position:absolute; top:0px;}
+.previous{ right:150px;}
+.next{ right:85px;}
+.return{right:0px;width:70px; line-height:23px;}
+
+.def_achild{ background:url(../images/admin_img/def_anniu.jpg) no-repeat; width:54px; height:23px; line-height:23px; text-align:center;}
+.def_achild a:link,.def_achild a:visited{color:#000000; text-decoration:none;}
+.def_achild a:hover{color:#4e4e4e;text-decoration:none}
+.def_achild a.none:link,.def_achild a.none:visited{color:#999999; text-decoration:none;}
+.def_achild a.none:hover{color:#999999;text-decoration:none}
+
+.def_con{ padding:10px;}
+.def_conT{ border-bottom:#828282 dashed 1px; text-align:center; padding-bottom:5px;}
+.def_conT h2{ font-size:16px; font-weight:bold; line-height:34px;}
+.def_conT p{ color:#cccccc; line-height:24px;}
+
+.def_conC{ padding:10px; border-bottom:#828282 dashed 1px;}
+.def_conC,.def_conC p{ font-size:14px;line-height:28px;}
+.def_conC p{ text-indent:2em;}
+
+.def_conD{ width:200px; margin-left:auto; margin-right:auto; position:relative; height:23px;}

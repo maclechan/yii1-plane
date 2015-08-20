@@ -1,0 +1,64 @@
+/* CSS Document */
+.font-w{ font-weight:bold;}
+.font-wn{ font-weight:normal;}
+
+.red{ color:#F00;}
+.yellow{ color:#FFFF00 ;}
+.white_color{ color:#fff;}
+.black_color{ color:#000000;}
+.red_color{ color:#800000;}
+.Blue_color{color:#006dd1;}
+.hui_color{ color:#ececec;}
+.lv_color{ color:#0C0;}
+.ccc_color{ color:#cccccc;}
+.1d7_color{ color:#1d7374;}
+.9f9_color{ color:#9f9f9f;}
+.666_color{ color:#666666;}
+
+
+
+.textD{text-decoration:underline;}
+.fontS10{ font-size:10px;}
+.fontS14{ font-size:14px;}
+.fontS18{ font-size:18px;}
+/*链接*/
+a.white:link,a.white_color:visited,a.white:hover{color:#fff;}
+a.white_color:link,a.white_color:visited{color:#fff;}
+a.white_color:hover{color:#faa;}
+a.ccc_color:link,a.ccc_color:visited{color:#cccccc;}
+a.ccc_color:hover{color:#faa;}
+a.a_normal:link,a.a_normal:visited{ color:#333; text-decoration:none;}
+a.a_normal:hover{ color:#333; text-decoration:underline;}
+a.a_page_on:link,a.a_page_on:visited{ color:#f00; text-decoration:none;}
+a.a_page_on:hover{ color:#f00; text-decoration:none;}
+a.a_hei:link,a.a_hei:visited{ color:#666; text-decoration:none;}
+a.a_hei:hover{ color:#333; text-decoration:none;}
+a.a_blue:link,a.a_blue:visited{ color:#09f; text-decoration:none;}
+a.a_blue:hover{ color:#0161a2; text-decoration:none;}
+a.a_blue:link,a.a_blue:visited{ color:#09f; text-decoration:none;}
+a.a_blue:hover{ color:#0161a2; text-decoration:none;}
+a.Blue:link,a.Blue:visited{color:#006dd1;}
+a.Blue:hover{color:#006dd1;}
+a.lan:link,a.lan:visited{color:#1f3d99;}
+a.lan:hover{color:#f00;}
+a.lan_linkdown:link,a.lan_linkdown:visited{color:#0033cc; text-decoration:underline;}
+a.lan_linkdown:hover{color:#f00; text-decoration:underline;}
+.Deep_Blue a:link,.Deep_Blue a:visited{color:#1f3d99;text-decoration:none;}
+.Deep_Blue a:hover{color:#f00;text-decoration:none; }
+a.Deep_Blue:link,a.Deep_Blue:visited{color:#1f3d99;text-decoration:none;}
+a.Deep_Blue:hover{color:#f00;text-decoration:none; }
+
+a.red:link,a.red:visited{color:#F00; text-decoration:none;}
+a.red:hover{color:#F00;text-decoration:none}
+
+
+
+/*======按钮======*/
+.insearch{width:200px;height:20px}
+.b_pg{background:#e2e8eb; border-bottom:#bec6ce solid 2px;border-right:#bec6ce solid 2px;border-left:#ffffff solid 1px;border-top:#ffffff solid 1px; _padding-top:5px;cursor: pointer;}
+.b_add{background:#ff9933; border-bottom:#bec6ce solid 1px;border-right:#bec6ce solid 1px;border-left:#ffffff solid 1px;border-top:#ffffff solid 1px; _padding-top:5px; color:#FFF;cursor: pointer; height:28px;}
+a.b_add:link,a.b_add:visited,a.b_add:hover{background:#62A5DC; width:80px;color:#FFF;cursor: pointer; border:none; text-align:center;height:28px; line-height:28px;}
+
+a.b_pg{ line-height:20px; height:20px; padding:0px; margin:0px; display:inline-block; background:#e2e8eb; border-bottom:#bec6ce solid 2px;border-right:#bec6ce solid 2px;border-left:#ffffff solid 1px;border-top:#ffffff solid 1px; margin-left:5px; padding-left:5px; padding-right:5px;}
+a.b_pg:link,a.b_pg:visited{}
+a.b_pg:hover{ color:#000;background:#e6f5fd;border-bottom:#3c7fb1 solid 2px;border-right:#3c7fb1 solid 2px;border-left:#3c7fb1 solid 1px;border-top:#3c7fb1 solid 1px;}

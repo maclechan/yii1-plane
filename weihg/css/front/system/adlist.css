@@ -1,0 +1,236 @@
+.g-head{
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 100%;
+	line-height: 80px;
+}
+.g-head .m-area{
+	display: block;
+	/*margin-right: -136px;*/
+	height: 78px;
+	margin-top: 1px;
+	border-right: 1px solid #f9f9f9;
+	width: 134px;
+}
+.g-head .m-areaT{
+	z-index: 10;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-right: 20px;
+	background-image: url(../../../images/front_img/icon.png);
+	background-position:  100px 30px;
+	background-repeat:  no-repeat;
+	
+}
+.g-head .m-select{
+	z-index: 10;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 80px;
+	width: 136px;
+}
+.g-head .m-select span{
+	z-index: 10;
+	display: block;
+	width: 100%;
+	line-height: 79px;
+	border-top: 1px solid #f9f9f9;
+
+}
+.g-mask{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+
+}
+.g-head .m-inbox{
+	width: 78%;
+}
+.g-head .m-inbox .m-input{
+	height: 80px;
+	margin:-4px 136px 0 0;
+}
+.g-head .m-inbox input{
+	margin:0 22px;
+	padding: 14px 0 14px 40px;
+	height: 28px;
+	width: 286px;
+	line-height: 28px;
+	border-radius: 5px;
+	border: none;
+	background-image: url(../../../images/front_img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -74px;
+}
+.g-head .m-fit{
+	/*display: none;*/
+	margin-left: -136px;
+	height: 78px;
+	margin-top: 1px;
+	border-left: 1px solid #f9f9f9;
+	width: 134px;
+}
+.g-body .g-list{
+	width: 94%;
+	margin: 100px 20px 0 20px;
+}
+.g-list .m-per{
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 182px;
+}
+.g-list .m-list{
+	width: 100%;
+	height: 100%;
+}
+.g-list .m-list img{
+	margin: 20px;
+	height: 142px;
+	width: 142px;
+	margin-right: -182px;
+}
+.g-list .m-info{
+	width: 100%;
+	height: 100%;
+}
+.g-list .m-info p{
+	display: block;
+	margin-top: 40px;
+	padding-left: 222px;
+}
+.g-list .m-info .pname{
+	display: inline-block;
+	height: 40px;
+	width: 160px;
+}
+.g-list .m-info .pttl{
+	display: inline-block;
+	height: 40px;
+	width: 180px;
+}
+.g-head .m-back{
+	display: none;
+	height: 78px;
+	margin-top: 1px;
+	border-right: 1px solid #f9f9f9;
+	width: 134px;
+	background-image: url(../../../images/front_img/icon.png);
+	background-position: 44px -186px;
+	background-repeat:  no-repeat;
+}
+.g-head #search{
+	display: none;
+	margin-left: -136px;
+	height: 78px;
+	margin-top: 1px;
+	border-left: 1px solid #f9f9f9;
+	width: 134px;
+}
+.g-head #m-done{
+	display: none;
+	margin-left: -136px;
+	margin-top: 1px;
+	height: 78px;
+	border: none;
+	border-left: 1px solid #f9f9f9;
+	width: 134px;
+	background-image: url(../../../images/front_img/icon.png);
+	background-position: 28px -294px;
+	background-repeat: no-repeat;
+}
+#closebtn{
+	display: none;
+	z-index: 10;
+	position: absolute;
+	right: 162px;
+	top: 20px;
+	height: 32px;
+	line-height: 32px;
+	padding:4px 0;
+	width: 40px;
+}
+.m-inbox #filttl{
+	display: none;
+	height: 80px;
+	margin:0 134px 0 0;
+}
+.g-body .g-filt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	clear: both;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.g-filt .box{
+	height: 80px;
+}
+.g-filt .sttl{
+	padding: 20px 0;
+	margin-top: 20px;
+	margin-left: 2%;
+	padding-left: 4%;
+	width: 24%;
+}
+.g-filt .scnt{
+	padding: 20px 0;
+	margin-top: 20px;
+	margin-right: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 64%;
+
+}
+.g-filt #styttl,.g-filt #stycnt{
+	line-height:46px;
+	height: 138px;
+}
+.g-filt #stycnt span{
+	float: left;
+	display: block;
+	height: 46px;
+	width: 25%;
+}
+.g-filt #sexttl,.g-filt #sexcnt,.g-filt #clattl{
+	line-height:46px;
+	height: 46px;
+}
+.g-filt #sexcnt span{
+	float: left;
+	display: block;
+	height: 46px;
+	width: 33%;
+}
+.g-filt #clacnt span{
+	float: left;
+	display: block;
+	height: 46px;
+	width: 33%;
+}
+.g-filt #costttl{
+	line-height: 46px;
+	height: 138px;
+}
+.g-filt #costcnt span{
+	float: left;
+	display: block;
+	line-height: 46px;
+	width: 50%;
+}
+/*选中*/
+.g-filt .m-slt .js-selected{
+	color: #fb4688;
+}

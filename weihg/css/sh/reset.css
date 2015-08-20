@@ -1,0 +1,34 @@
+/*reset*/
+html,body,p,div,h1,h2,h3,ul,li,a,button,input,textarea,th,td{padding: 0;margin: 0;font-family: "MicroSoft YaHei"}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: #1b1b1b;}
+a:hover{text-decoration: underline;}
+/*font-size*/
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs22{font-size: 22px;}
+.fs24{font-size: 24px;}
+.fs26{font-size: 26px;}
+.fs28{font-size: 28px;}
+.fs36{font-size: 36px;}
+/*bgcolor*/
+.bg-f5c{background-color: #fd50c6;}
+.bg-f4c{background-color: #ff444c;}
+/*textcolor*/
+.fc-fff{color: #ffffff;}
+.fc-dg{color: #1b1b1b;}/*deep gray*/
+.fc-lg{color: #7d7d7f;}/*light gray*/
+.fc-red{color: #ff444c;}
+.fc-gray{color: #4e4c4d;}
+.fc-gr{color: #4e4c4d;}
+/*text elign*/
+.f-tal{text-align: left;}
+.f-tac{text-align: center;}
+.f-tar{text-align: right;}
+/*float*/
+.f-fl{float: left;}
+.f-fr{float: right;}
+.f-cb{clear: both;}

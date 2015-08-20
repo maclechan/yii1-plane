@@ -1,0 +1,124 @@
+ .g-body .m-box1{
+	    	position: relative;
+	    	background-image: url(../../../images/front_img/uhbg.jpg);
+	    	background-size: cover;
+	    	background-repeat: no-repeat;
+	    }
+		.m-box1 .u-name{
+			padding: 48px 0 20px 0;
+			width: 100%;
+		}
+		.u-name p{
+			width: 100%;
+		}
+		.u-name p img{
+			width: 120px;
+			height: 120px;
+			border-radius: 60px;
+		}
+		.u-name p.name{
+			line-height: 56px;
+		}
+		.u-name p.cart{
+			margin-left: 20px;
+			position: relative;
+			display: block;
+			height: 60px;
+			width: 60px;
+			border-radius: 30px;
+			border: 2px solid #fff;
+			background-image: url(../../../images/front_img/phomeicon.png);
+			background-repeat: no-repeat;
+			background-position: -10px -316px;
+		}
+		.u-name .cart .cnum{
+			position: absolute;
+			height: 20px;
+			padding: 0 5px;
+			right: 5px;
+			top: 10px;
+			border-radius: 10px;
+		}
+		.g-side{
+			height: 20px;
+			border-top: 1px solid #d9d9d9;
+			border-bottom: 1px solid #d9d9d9;
+		}
+		.g-list{
+			width: 100%;
+		}
+		.g-list ul{
+			width: 94%;
+			margin: 0 auto;
+		}
+		.g-list ul .ttl{
+			display: block;
+			height: 100px;
+			line-height: 100px;
+			padding-left: 60px;
+			border-bottom: 1px solid #d9d9d9;
+			background-image: url(../../../images/front_img/sharelike.png);
+			background-repeat: no-repeat;
+		}
+		.g-list ul a span{
+			padding-right: 40px;
+			line-height: 100px;
+			background-image: url(../../../images/front_img/go.png);
+			background-position: right center;
+			background-repeat: no-repeat;
+		}
+		.g-list ul li{
+			display: block;
+			height: 100px;
+			line-height: 100px;
+		}
+		.g-list .ul1 a{
+			height: 100%;
+			padding:0 20px 0 60px; 
+		}
+		.g-list .ul2 li{
+			height: 130px;
+			line-height: 40px;
+		}
+		.g-list .ul2 li a{
+			padding:68px 16px 18px 20px; 
+			background-image: url(../../../images/front_img/ostatus.png);
+			background-repeat: no-repeat;
+		}
+		.g-list .ul1 .ttl{
+			background-position: -16px -132px;
+		}
+		.g-list .ul2 .ttl{
+			background-position: -16px -748px;
+		}
+		.g-list .ul3 .ttl{
+			background-position: -16px -893px;
+		}
+		.g-list .ul4 .ttl{
+			background-position: -16px -1048px;
+		}
+		.g-list .ul3 li{
+			padding-left: 60px;
+			border-bottom: 1px solid #d9d9d9;
+		}
+		.g-list .ul3 li:last-child{
+			border: none;
+		}
+		.g-list .ul4 li{
+			padding-left: 60px;
+		}
+		.ul2 .unpaid{
+			background-position: 30px 10px;
+		}
+		.ul2 .unsend{
+			background-position: 30px -116px;
+		}
+		.ul2 .unget{
+			background-position: 30px -255px;
+		}
+		.ul2 .uncmt{
+			background-position: 30px -390px;
+		}
+		.ul2 .afsale{
+			background-position: 30px -520px;
+		}

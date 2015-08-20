@@ -1,0 +1,137 @@
+.g-body{
+	background: #ccc;
+}
+.g-body .m-intr{
+			position: absolute;
+			top: 5%;
+			left: 10%;
+			width: 80%;
+			 box-shadow:0 4px 14px rgba(0,0,0,0.6);
+		}
+		.m-intr img{
+			width: 100%;
+			 box-shadow:0 4px 24px rgba(0,0,0,0.6);
+		}
+		.m-intr .m-info{
+			position: absolute;
+			bottom: 0;
+			left: 10;
+			width: 100%;
+			height: 60%;
+			background: -webkit-linear-gradient(90deg,rgba(0,0,0,0.8),rgba(0,0,0,0));
+			background: -moz-linear-gradient(90deg,rgba(0,0,0,0.8),rgba(0,0,0,0));
+			background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0));
+		}
+		.m-intr .m-info p{
+			position: absolute;
+			padding-left: 20px;
+		}
+		.m-intr .pname{
+			bottom: 126px;
+			margin-top: 160px;
+		}
+		.m-intr .pttl{
+			bottom:70px; 
+			line-height: 60px;
+		}
+		.m-intr #pbtn{
+			position: absolute;
+			bottom: 20px;
+			padding: 0;
+			line-height: 40px;
+		}
+		.m-intr .pbtn a{
+			color: #fff;
+			float: left;
+			display: block;
+			width: 100px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			border: 2px solid #8e8e8e;
+			
+		}
+		.m-intr #itel{
+			margin-left: 20px;
+			padding-left: 20px;
+			background: url(../../../images/front_img/phomeicon.png) no-repeat;
+			background-position: -10px -8px;
+		}
+		.m-intr #icat{
+			margin-left: 40px;
+			padding-left: 20px;
+			background: url(../../../images/front_img/phomeicon.png) no-repeat;
+			background-position: -10px -88px;
+		}
+		.m-intr #igo{
+			margin-left: 40px;
+			width: 110px;
+			padding-left: 20px;
+			background: url(../../../images/front_img/phomeicon.png) no-repeat;
+			background-position: -20px -172px;
+		}
+		.g-body #img-ctn{
+			position: absolute;
+			left: 48%;
+			top: 70%;
+			width: 340px;
+			height: 240px;
+			margin-left: -24%;
+		}
+		.g-body #imgul{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+		}
+		#imgul li{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			 -webkit-transform:perspective(1100px) rotateY(0deg);-moz-transform:perspective(1100px) rotateY(0deg);-ms-transform:perspective(1100px) rotateY(0deg);-o-transform:perspective(1100px) rotateY(0deg); z-index:1; opacity:0; box-shadow:0 4px 14px rgba(0,0,0,0.6); -webkit-transition:1s all ease;-moz-transition:1s all ease;-ms-transition:1s all ease;-o-transition:1s all ease; 
+		}
+		#imgul .cur{
+			opacity: 1;
+			 -webkit-transform:scale(1);
+			 -moz-transform:scale(1);
+			 -ms-transform:scale(1);
+			 -o-transform:scale(1); z-index:99;
+		}
+		#imgul .active{
+		 opacity:1; -webkit-transform:translateY(40px) scale(2);
+		 -moz-transform:translateY(40px) scale(2);
+		 -ms-transform:translateY(40px) scale(2);
+		 -o-transform:translateY(40px) scale(2);
+		  z-index:99;
+		}
+		#imgul .left, #imgul .right {z-index:3; opacity:1;}
+		#imgul .left2, #imgul .right2 {z-index:2; opacity:0;}
+		#imgul .left {
+			-webkit-transform:perspective(1100px) translate(-232px, 10px) rotateY(60deg) scale(0.5);
+			-moz-transform:perspective(1100px) translate(-232px, 10px) rotateY(60deg) scale(0.5);
+			-ms-transform:perspective(1100px) translate(-232px, 10px) rotateY(60deg) scale(0.5);
+			-o-transform:perspective(1100px) translate(-232px, 10px) rotateY(60deg) scale(0.5);
+		}
+		#imgul .right {
+			-webkit-transform:perspective(1100px) translate(232px, 10px) rotateY(-60deg) scale(0.5);
+			-moz-transform:perspective(1100px) translate(232px, 10px) rotateY(-60deg) scale(0.5);
+			-ms-transform:perspective(1100px) translate(232px, 10px) rotateY(-60deg) scale(0.5);
+			-o-transform:perspective(1100px) translate(232px, 10px) rotateY(-60deg) scale(0.5);
+		}
+		#imgul .left2 {
+			-webkit-transform:perspective(1100px) translate(-200px, 10px) rotateY(60deg) scale(0.8);
+			-moz-transform:perspective(1100px) translate(-200px, 10px) rotateY(60deg) scale(0.8);
+			-ms-transform:perspective(1100px) translate(-200px, 10px) rotateY(60deg) scale(0.8);
+			-o-transform:perspective(1100px) translate(-200px, 10px) rotateY(60deg) scale(0.8);
+		}
+		#imgul .right2 {
+			-webkit-transform:perspective(1100px) translate(200px, 10px) rotateY(-60deg) scale(0.8);
+			-moz-transform:perspective(1100px) translate(200px, 10px) rotateY(-60deg) scale(0.8);
+			-ms-transform:perspective(1100px) translate(200px, 10px) rotateY(-60deg) scale(0.8);
+			-o-transform:perspective(1100px) translate(200px, 10px) rotateY(-60deg) scale(0.8);
+		}
+
+		#imgul li img {position:absolute; width:100%; height:100%; left:0; top:0;}

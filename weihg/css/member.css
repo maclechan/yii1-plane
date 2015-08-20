@@ -1,0 +1,77 @@
+/* CSS Document */
+body{padding:0px; margin:0;}
+table.mem_show{padding:0px; margin:0 auto;border-collapse:inherit; background:#FFF; border-bottom:#dddddd solid 1px; border-right:#dddddd solid 1px;}
+.mem_show th{background:url(../images/admin_img/th.png) no-repeat;color:#000;text-shadow: #efefef 2px 2px 2px;cursor: pointer;}
+.mem_show th,.mem_show td{word-break:keep-all;white-space:nowrap;overflow:hidden;text-align:center; text-indent:5px; border-top:#dddddd solid 1px; border-left:#dddddd solid 1px;height:25px;line-height:25px;}
+.mem_show td{color:#444;text-overflow:ellipsis;height:30px;line-height:30px;}
+
+/*隔行换色 byChan*/
+.on{background-color:#E0ECFF}
+.odd{background:#FFFFFF}
+.even{background:#DFDFDF}
+
+/*分页样式*/
+.pageBG{background:url(../images/admin_img/pageBG.jpg) repeat-x; height:40px; overflow:: hidden; color:#FFF; text-align:center;width:100%; text-align:left;}
+.pageBG_L{ padding-top:10px;}
+.pageBG_C{ padding-top:8px;}
+.pageBG_C input{margin-left:5px;}
+.pageBG_R{ padding-top:6px; line-height:33px; color:#000; text-align:right; padding-right:10px;}
+.pageY{ width:700px; padding-top:8px; padding-left:10px;}
+.pageBG .pt_8{margin-left: 80px;}
+
+/*员工列表*/
+table.emplist{padding:0px; margin:10px;border-collapse:inherit; background:#FFF; border-bottom:#dddddd solid 1px; border-right:#dddddd solid 1px;}
+.emplist th{background:url(../images/admin_img/th.png) no-repeat;color:#000;text-shadow: #efefef 2px 2px 2px;cursor: pointer;}
+.emplist th,.emplist td{word-break:keep-all;white-space:nowrap;overflow:hidden;text-align:center; text-indent:5px; border-top:#dddddd solid 1px; border-left:#dddddd solid 1px;height:25px;line-height:25px;}
+.emplist td{color:#444;text-overflow:ellipsis;height:20px;line-height:20px;}
+.emplist tr td a{ color:#03F; font-family:"微软雅黑";}
+.emplist tr td a:hover{color:#F00; }
+
+.input_style{ width:150px;}
+
+.b_blue a{color:#03F; font-family:"微软雅黑";}
+.b_blue a:hover{color:#F00; }
+
+#CheckedAll{ font-family:"微软雅黑";}
+#CheckedNo{ font-family:"微软雅黑";}
+#checkDone{font-family:"微软雅黑";}
+
+.mem_show th .selected{ background-color:#FBEC88;}
+
+.shops_add{ margin:20px auto;width:800px; min-height:320px; border:1px dashed #CCCCCC}
+.shops{width:200px;}
+.t_w{width:400px; height:80px}
+.w_400{width:400px; }
+textarea {resize: none;overflow:auto;}
+
+.blue{color: #03F}
+.red{color:#F00}
+
+.employee_add{width:100%;margin-left:30px;}
+.emp_add{width:500px;margin-left:30px;border:1px dashed #CCCCCC}
+
+.shops_check{height:40px; line-height:40px;margin-left: 80px;}
+
+/*后台首页默认样式*/
+ .tab{ height:25px; line-height:25px;background:#3c86c5;color:#cccccc; width:100%;}
+.tab  .tabLeft a{color:#FFF}
+.default_wrap{padding: 20px 20px 70px; width:1102px; overflow:auto}
+.c_width{width:400px; height:200px; float:left;border:1px solid #CCC }
+.c_width h2{width:390px; height:30px; padding-left:10px; line-height:30px; border-bottom:1px solid #CCC}
+.c_width ul{width:390px; float:left;margin-left:10px; margin-top:10px; display:inline}
+.c_width ul li{width:100%; height:22px; line-height:22px;}
+.m_l{margin-left:50px;}
+.m_t{margin-top:50px;}
+
+/*弹出层*/
+.black_overlay{display: none;position: absolute;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+.white_content {display: none;position: absolute;top: 10%;left: 10%;width: 80%;height: 80%;border: 16px solid #3F89C8;background-color: white;z-index:1002;overflow: auto;}
+.white_content_small {display: none;position: absolute;top: 20%;left: 30%;width: 40%;height: 50%;border: 16px solid lightblue;background-color: white;z-index:1002;overflow: auto;}
+#close{height:32px; width:32px; cursor:pointer}
+#edit_notes{overflow:auto;border: 1px solid #FFFFFF;}
+
+.same_t{width:98%; margin:0 auto; margin-top:10px; margin-bottom:10px;}
+.same_t th, .same_t td{text-align:center}
+.same_t th{color:#2c3e50}
+.same_t thead{background-color:#ecf0f1}
+.linellae{background:url(../images/admin_img/pageBG.jpg) repeat-x; height:6px; overflow:hidden}
